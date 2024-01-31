@@ -1,0 +1,3 @@
+STRIP applies random transformations to the provided samples to detect poisoned data. The idea is that when you perturb a clean image, the model’s output changes drastically. Whereas if you perturb a poisoned image with a backdoor, the prediction will not change because the model’s output will be heavily guided by the backdoor.
+
+In other words, no matter how you perturb a poisoned image, the model should still predict the fake label because it will put high emphasis on the backdoor. Based on these differences, STRIP can distinguish between clean and poisoned images.

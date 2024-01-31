@@ -1,0 +1,1 @@
+The trainer defense is a type of defense where we inject some adversarial samples into the training set to teach the model to produce the correct output regardless of perturbations.
